@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DJ Homepage</title>
+        <link rel="stylesheet" href="DJpageStyle.css">
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    </head>
+    <body>
+        <!-- <h1>Hello World!</h1> -->
+
+        <div class="header">
+            <!-- <a href="#default" class="logo">GIRLYPOPS</a> -->
+            <img src="logo.png" width="200">
+        </div>
+
+        <div class="container">
+            <div class="left-side">
+                <div class="time-slot">
+                    <h2>Pick a time-slot!</h2>
+                    <h3>List of available times</h3>
+                    <ul> 
+                        <li><button class="time-slot-btn">Time slot 1</button></li>
+                        <li><button class="time-slot-btn">Time slot 2</button></li>
+                        <li><button class="time-slot-btn">Time slot 3</button></li>
+                        <li><button class="time-slot-btn">Time slot 4</button></li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <h2>Search For a Song or Playlist:</h2>
+                    <input type="text" placeholder="Enter song/playlist..." class="search-input">
+                    <button type="submit" class="search-btn">Enter</button>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="right-side">
+                    <div class="assigned-playlist">
+                        <h2>Assigned Playlist</h2>
+                        <!-- <ul>
+                            <li>Song 1</li>
+                            <li>Song 2</li>
+                            <li>Song 3</li>
+                            <li>Song 4</li>
+                        </ul> -->
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Song Name</th>
+                                    <th>Artist</th>
+                                    <th>Duration</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Song 1</td>
+                                    <td>Artist A</td>
+                                    <td>3:45</td>
+                                </tr>
+                                <tr>
+                                    <td>Song 2</td>
+                                    <td>Artist B</td>
+                                    <td>4:10</td>
+                                </tr>
+                                <tr>
+                                    <td>Song 3</td>
+                                    <td>Artist C</td>
+                                    <td>3:25</td>
+                                </tr>
+                                <tr>
+                                    <td>Song 4</td>
+                                    <td>Artist D</td>
+                                    <td>4:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+        
+                    <div class="live-playlist">
+                        <h2>Live Playlist</h2>
+                        <ul>
+                            <li>Song A</li>
+                            <li>Song B</li>
+                            <li>Song C</li>
+                            <li>Song D</li>
+                        </ul>
+                    </div>
+
+                    <div class="current-song">
+                        <h3>Current Song</h3>
+                        <div class="player-controls">
+                            <button>&#9664;&#9664;</button>
+                            <button>&#9654;</button>
+                            <button>&#9658;&#9658;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-prof">
+                    <div class="user-icon">
+
+                    </div>
+                    <div class="profile-info">
+                        <p>User Name</p>
+                        <p>Email: user@example.com</p>
+                        <button class="settings-button">Settings</button>
+                    </div>
+
+                    <div class="form-section">
+                        <form name="MyForm">
+                            <h2>Contact</h2>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter full name..." class="form-input" required>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="Enter valid email..." class="form-input" required>                
+                            <label for="message">Message:</label>
+					        <input type="text" id="request" name="request" placeholder="Enter message here..." class="form-input" required>
+                            <input type="submit" value="Send Message">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Privacy Policy | Terms and Conditions</p>
+            <p>&copy; 2024 GIRLYPOPS</p>
+        </footer>
+    
+    </body>
+</html>
